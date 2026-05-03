@@ -175,7 +175,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           style={{ fontSize: 'clamp(40px,9vw,96px)', fontWeight: 800, lineHeight: 1.0, marginBottom: 24 }}
         >
-          Hi, I'm <span className="gradient-text">Sakthi</span>
+          Sakthi Prasath <span className="gradient-text">Dev</span>
         </motion.h1>
 
         {/* Typewriter */}
