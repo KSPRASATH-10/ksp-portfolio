@@ -76,16 +76,12 @@ export const PROJECTS = [
 
 export const CLIENT_PROJECTS = [
   {
-    title: 'Restaurant Website',
-    desc:  'Responsive website for a local restaurant with online menu, reservation system, and Google Maps integration.',
-    tech:  ['React', 'Tailwind', 'EmailJS'],
-    live:  '#', github: '#',
-  },
-  {
-    title: 'Freelancer Portfolio',
-    desc:  'Clean, minimal portfolio for a graphic designer with gallery, testimonials, and contact form.',
-    tech:  ['React', 'Framer Motion', 'Tailwind'],
-    live:  '#', github: '#',
+    title:    'Freelancer Portfolio',
+    desc:     'Clean, minimal portfolio for a stock market trader with services and contact form.',
+    tech:     ['HTML','CSS'],
+    category: 'Client',
+    year:     '2024',
+    live:     '#', github: '#',
   },
 ]
 
@@ -171,53 +167,32 @@ export const ALL_PROJECTS = [
     },
   },
   {
-    title:    'Restaurant Website',
-    desc:     'Responsive website for a local restaurant with menu, reservations, and Maps.',
-    tech:     ['React', 'Tailwind', 'EmailJS'],
+    title:    'Freelancer Portfolio',
+    desc:     'Clean, minimal portfolio for a stock market trader with services and contact form.',
+    tech:     ['HTML','CSS'],
     category: 'Client',
     year:     '2024',
     live:     '#', github: '#',
   },
   {
-    title:    'Freelancer Portfolio',
-    desc:     'Clean, minimal portfolio for a graphic designer with gallery and contact form.',
-    tech:     ['React', 'Framer Motion', 'Tailwind'],
-    category: 'Client',
-    year:     '2023',
-    live:     '#', github: '#',
-  },
-  {
-    title:    'DSA Visualizer',
-    desc:     'Interactive tool to visualize sorting and graph algorithms step by step.',
-    tech:     ['React', 'JavaScript', 'CSS Animations'],
+    title: 'Asynchronous Weather Dashboard',
+    desc: 'A lightweight frontend web application utilizing native web APIs to fetch, parse, and dynamically render real-time meteorological forecasts based on user location queries.',
+    tech: ['JavaScript', 'HTML5', 'CSS3', 'REST APIs'],
     category: 'Frontend',
-    year:     '2023',
-    live:     '#', github: '#',
+    year: '2025',
+    live: 'https://ksprasath-10.github.io/Weather-App/', 
+    github: 'https://github.com/KSPRASATH-10/Weather-App',
     details: {
-      features:   ['Bubble, merge, quick sort', 'BFS / DFS graph traversal', 'Adjustable speed'],
-      challenges: 'Syncing animation timing with algorithm steps required a custom async step-runner.',
+      features: [
+        'Integrated asynchronous HTTP network fetch streams connecting to external REST API web services',
+        'Engineered dynamic DOM manipulation routines updating weather layouts seamlessly without page reloads',
+        'Structured modular, scalable vanilla stylesheets ensuring clean responsive user viewports',
+        'Configured automated client-side deployment hosting layouts publicly via GitHub Pages infrastructure'
+      ],
+      challenges: 'Handling latent network delays and missing JSON payload objects caused script execution halts on the client-side thread. Mitigated by wrapping API delivery calls inside robust try/catch blocks with explicit fallback UI states.'
     },
   },
-  {
-    title:    'Blog REST API',
-    desc:     'Full-featured REST API with auth, posts, comments, and pagination.',
-    tech:     ['Node.js', 'Express', 'MongoDB', 'JWT'],
-    category: 'Backend',
-    year:     '2023',
-    live:     '#', github: '#',
-    details: {
-      features:   ['JWT auth & refresh tokens', 'CRUD posts & comments', 'Pagination & search'],
-      challenges: 'Designing a clean, versioned API structure that stays maintainable as features grow.',
-    },
-  },
-  {
-    title:    'CLI Todo Tool',
-    desc:     'Command-line task manager written in C++ with file persistence.',
-    tech:     ['C++', 'File I/O', 'CLI'],
-    category: 'Tool',
-    year:     '2022',
-    live:     '#', github: '#',
-  },
+
   // ── Add your next project here ──
   // {
   //   title:    'New Project',
