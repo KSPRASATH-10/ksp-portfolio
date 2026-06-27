@@ -153,6 +153,24 @@ export const ALL_PROJECTS = [
   },
 },
   {
+    title: 'Traffic Management System',
+    desc: 'A database-driven full-stack web application built to monitor city operations, streamlining traffic incident tracking, violation logging, and parking capacity analytics.',
+    tech: ['Flask', 'Python', 'MongoDB', 'JavaScript', 'HTML5', 'CSS3'],
+    category: 'Full Stack',
+    year: '2025',
+    live: '#', 
+    github: 'https://github.com/KSPRASATH-10/Traffic-Management-System',
+    details: {
+      features: [
+        'Engineered dynamic CRUD entry routes managing real-time driver traffic violations and status logging',
+        'Implemented database state seeding pipelines utilizing standalone initialization controllers',
+        'Built aggregation pipelines providing descriptive analytical metrics over core operational datasets',
+        'Structured modular rendering schemas decoupling frontend asset serving from backend routes'
+      ],
+      challenges: 'Handling real-time state mutations across concurrent reporting documents created transactional race conditions. Mitigated by designing isolated aggregation pipelines and atomic update operators, maintaining strict system synchronization.'
+    },
+  },
+  {
     title:    'Restaurant Website',
     desc:     'Responsive website for a local restaurant with menu, reservations, and Maps.',
     tech:     ['React', 'Tailwind', 'EmailJS'],
