@@ -61,7 +61,7 @@ export const PROJECTS = [
   desc: 'A terminal-based autonomous triage agent built for the HackerRank Orchestrate 24-hour hackathon to classify, route, and resolve support tickets deterministically across distributed product ecosystems.',
   tech: ['Python', 'Node.js', 'TF-IDF Retrieval', 'Regex Parsing', 'JSON Schemas'],
   live: '#', 
-  github: 'https://github.com/KSPRASATH-10/FinPilot-AI', // Update if placed in a separate repository later
+  github: 'https://github.com/KSPRASATH-10/hackerrank-orchestrate-ai',
   details: {
     features: [
       'Deterministic rule-based classification pipeline categorizing multi-domain tickets with zero context loss',
