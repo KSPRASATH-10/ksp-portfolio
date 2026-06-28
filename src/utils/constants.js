@@ -56,7 +56,7 @@ export const PROJECTS = [
       challenges: 'Heavy computational tracking arrays for mathematical backtesting caused high latency overhead when handled by the standard server thread. Mitigated by designing an isolated Python analytical core layer, reducing evaluation time while maintaining absolute data purity.'
     },
   },
-{
+/* {
   title: 'Orchestrate AI Support Agent',
   desc: 'A terminal-based autonomous triage agent built for the HackerRank Orchestrate 24-hour hackathon to classify, route, and resolve support tickets deterministically across distributed product ecosystems.',
   tech: ['Python', 'Node.js', 'TF-IDF Retrieval', 'Regex Parsing', 'JSON Schemas'],
@@ -71,7 +71,7 @@ export const PROJECTS = [
     ],
     challenges: 'Cross-domain query processing caused overlapping word arrays to return noisy, ungrounded data records. Mitigated by designing a metadata-driven domain routing algorithm that isolated matching scopes, dramatically improving precision.'
   },
-},
+}, */
 ]
 
 export const CLIENT_PROJECTS = [
@@ -132,7 +132,7 @@ export const ALL_PROJECTS = [
       challenges: 'Heavy computational tracking arrays for mathematical backtesting caused high latency overhead when handled by the standard server thread. Mitigated by designing an isolated Python analytical core layer, reducing evaluation time while maintaining absolute data purity.'
     },
   },
-{
+/* {
   title: 'Orchestrate AI Support Agent',
   desc: 'A terminal-based autonomous triage agent built for the HackerRank Orchestrate 24-hour hackathon to classify, route, and resolve support tickets deterministically across distributed product ecosystems.',
   tech: ['Python', 'Node.js', 'TF-IDF Retrieval', 'Regex Parsing', 'JSON Schemas'],
@@ -147,7 +147,7 @@ export const ALL_PROJECTS = [
     ],
     challenges: 'Cross-domain query processing caused overlapping word arrays to return noisy, ungrounded data records. Mitigated by designing a metadata-driven domain routing algorithm that isolated matching scopes, dramatically improving precision.'
   },
-},
+}, */
   {
     title: 'Traffic Management System',
     desc: 'A database-driven full-stack web application built to monitor city operations, streamlining traffic incident tracking, violation logging, and parking capacity analytics.',
